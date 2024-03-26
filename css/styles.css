@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Corinthia:wght@700&family=Lato:wght@300;400;700;900&family=Poppins:wght@100;200;300;400;500;700;900&family=Rubik:wght@300;400;700&display=swap');
+
+.border-5 {
+    border: solid 20px teal;
+}
+
+.rug { 
+    border: solid 3px teal;
+    background-color: #e8e8e8;
+    text-align: center;
+}
+
+.rug:hover {
+    background-color: #bebebe;
+}
+
+.rug-1 {
+    padding: 20px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+}
+
+.rug-2 {
+    padding: 20px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style: none;
+}
+
+.content {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.rug-text {
+    text-align: center;
+}
+
+.blockquote-footer {
+    background-color: #404040;
+}
+
+@media (max-width: 1445px) {
+    .rug-1 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .rug-2 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+
+@media (max-width: 1165px) {
+    .rug-1 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .rug-2 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+/* Device Standard */
+@media (max-width: 992px) {
+    .rug-1 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .rug-2 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media (max-width: 890px) {
+    .rug-1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .rug-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+/* Device Standard */
+@media (max-width: 768px) {
+    .rug-1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .rug-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 630px) {
+    .rug-1 {
+        grid-template-columns: 1fr;
+    }
+    .rug-2 {
+        grid-template-columns: 1fr;
+    }
+}
+/* Phone Standard */
+@media (max-width: 576px) {
+    .rug-1 {
+        grid-template-columns: 1fr;
+    }
+    .rug-2 {
+        grid-template-columns: 1fr;
+    }
+}
